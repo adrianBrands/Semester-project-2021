@@ -48,6 +48,7 @@ nav a{
     text-decoration: none;
     font-weight: lighter;
     color: black;
+    font-family:Arial, Helvetica, sans-serif;
     
     
 }
@@ -101,18 +102,13 @@ header {
     padding-bottom: 1px;
     position: absolute;
     display: flex;
-    
-    
-    
-    
-    
-    
 }
 
      body#home{ 
          background-image: url('../images/backgroundimage.jpg');
          background-repeat: no-repeat;
          background-size: cover;
+         font-family: Arial, Helvetica, sans-serif;
          
      }
 
@@ -120,23 +116,36 @@ header {
          margin-left: 200px;
          margin-top: 270px;
          background-color: #fff;
-     }
+    }
 
      .home1{
          float: left;
          max-width: 200px;
-        
          margin-left:100px;
          background-color: #fff;
          border-radius: 90px;
-         padding: 15px;
          background: rgba(255,255,255, 0.95 );
          font-size: 20px;
-         text-align: center;
+         letter-spacing: 0.5px;
          padding: 30px;
-         letter-spacing: 1px;
          
+    }
+
+     .home1 p{
+         margin-left: 10px;
      }
+
+     footer {
+       
+        
+        text-align: center;
+        background-color: #FFF;
+        margin-top: auto;
+        height: 60px;
+        padding-bottom: 7px;
+        background: rgba(255,255,255, 0.6 );
+    
+    }
 
      /*visit*/
      
@@ -145,6 +154,7 @@ header {
         background-repeat: no-repeat;
         background-position:top;
         background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
         
         
         
@@ -188,6 +198,15 @@ header {
         
     }
 
+    .visit h1{
+        font-family: 'Book Antiqua',sans-serif; 
+        font-size: 30px;
+    }
+
+    .visit1 h2{
+        font-size: 20px;
+    }
+
     /*explore*/
 
     body#explore{
@@ -197,8 +216,7 @@ header {
         background-attachment: fixed; /*chek this out*/
         min-height: 100vh;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;font-family: Arial, Helvetica, sans-serif;        
         
         
 
@@ -230,6 +248,7 @@ header {
         border-radius: 50px;
         padding: 15px 0 15px 20px;
         background: rgba(2,142,91, 0.85);
+        font-family: 'Book Antiqua',sans-serif;
         
         
     }
@@ -240,56 +259,48 @@ header {
         max-width: 400px;
         height: 400px;
         background: rgb(235, 215, 191, 0.95);
-       /* margin-left: 40px;*/
+        
+       
        
         
        
     }
 
+    
+
     .explore1 p{
         max-width: 300px;
         margin-left: 50px;
-        margin-top: 50px;
+        
        
         
     }
 
     .exxplore1{
-        
-        border-radius: 25px;
-        background-color: #028E5B;
         max-width: 200px;
         padding: 5px;
-        font-weight: bolder;
         margin-left: 90px;
         font-size: 10px;
         text-align: center;
         margin-top: 10px;
-        background: rgb(2,142,91, 0.8);
         
+        
+    }
+
+    .exxplore1 h2{
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: 'Book Antiqua',sans-serif;
     }
 
     
     
 
     .check {
-        
-        
-        
-        
         max-width: 350px;
-        
         border-radius: 30px;
-        /*position: absolute;
-        
-       top: 750px;
-       right: 860px;*/
-       
-       position: sticky;
-       
+        position: sticky;
        left: 775px;
-        
-        
     }
 
     .check a{
@@ -300,20 +311,13 @@ header {
         padding: 10px 10px 10px;
         border-radius: 30px;
         background: rgb(235, 215, 191, 0.9);
-        
-        
-        
-        
     }
 
     .check a:hover {
         background-color: #04AA6D;
         color: white;
         border-radius: 30px;
-        
-       /* padding: 10px 45px 11px;*/
-        
-      }
+    }
 
 
 
@@ -324,6 +328,7 @@ header {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
        
     }
 
@@ -347,8 +352,9 @@ header {
         padding: 20px 20px 20px 28px ;
         margin-top: -50px;
         margin-left: 100px;
+        font-family: 'Book Antiqua',sans-serif;
         
-        }
+    }
 
     .exhibitions2 img {
         max-width: 350px;
@@ -372,12 +378,15 @@ header {
         font-size: 25px;
         color: #fff;
         text-shadow: 0.5px 0.5px black;
+        font-family: 'Book Antiqua',sans-serif;
     }
 
     .exhibitions2 h2{
         font-size: 25px;
         color:#fff;
         text-shadow: 0.5px 0.5px black;
+        font-family: 'Book Antiqua',sans-serif;
+        
     }
 
     
@@ -396,6 +405,7 @@ header {
         background-position: center ;
         background-attachment: fixed; /*chek this out*/
         background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .form__input {
@@ -481,158 +491,160 @@ header {
         nav{
             display: none;
             margin-top: 40px;
-            
-            
-            
             margin-left: -320px;
-            
-            
-            
-            
-            
-            
         }
 
         header {
             width: 100%;
             margin:0;
-            
             margin-top: 20px ;
-            
-            
-            /*
-            padding-right: 20px;
-            margin-right: 10px;
-            margin-left: 10px;
-            */
-            
+        }
 
-             }
+        nav a {
+            padding: 5px; 
+            font-size: 15px;
+            text-decoration: none;
+            font-weight: lighter;
+            color: black;
+        }
 
-             nav a {
-                padding: 5px; 
-                font-size: 15px;
-                text-decoration: none;
-                font-weight: lighter;
-                color: black;
-                
-                
-
-                
-                
-            }
-
-            
-
-            
-            .museum h1{
-                font-size: 18px;
+        .museum h1{
+            font-size: 18px;
                
-            }
+        }
             
-            .museum h2{
-                margin-top: 20px;
+        .museum h2{
+            margin-top: 20px;
+             font-size: 15px;
+        }
 
-                font-size: 15px;
-                
-            }
-
-            .logo {
-                width: 70px;
-                margin-left: 50px;
-                margin-bottom: 20px;
-            }
+        .logo {
+            width: 70px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
 
 
-            /*explore*/
-            .explore {
-                display: grid;
-                grid-template-columns: repeat(1, 1fr);
-                max-width: 1500px;
-                margin: 50px auto;
-                grid-gap: 10px;
-                margin-top: 250px; 
-                margin-left: 50px;
-                
-                
-               
-                
-                
-            }
+        /*explore*/
+        .explore {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            max-width: 1500px;
+            margin: 50px auto;
+            grid-gap: 10px;
+            margin-top: 250px; 
+            margin-left: 50px;
+        }
 
-            
+        .explore h1{
+            margin-top: -40px;
 
-            .explore1{
-                margin-top:100px
-            }
+        }
         
-            .check{
-                margin-right: 25px;
-            }
+        
+
+            
+
+        .explore1{
+            margin-top:20px
+        }
+        
+        .check{
+            margin-right: 30px;
+            margin-bottom: 20px;
+        }
 
 
-            /*visit*/
-
-            .contact{
-                margin-left: 50px;
-                margin-top: 180px;
+        /*visit*/
+        .contact{
+            margin-left: 50px;
+            margin-top: 180px;
                 
                 
-            }
+        }
 
-            /*exhibitions*/
-            .exhibitions{
+        .visit h1{
+            font-size: 25px;
+        }
+        
+        .visit1 h2{
+            font-size: 15px;
+        }
+        
+
+        /*exhibitions*/
+        .exhibitions{
                 
-                grid-template-columns: repeat(1, 1fr);
-                margin-left: 80px;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 80px;
                 
-            }
+        }
 
-            .exhibitions2{
-                margin-top: 50px;
-            }
+        .exhibitions2{
+            margin-top: 50px;
+        }
 
-            .exhibitions3{
-                margin-right: 100px;
-                margin-top: 30px;
-            }
+        .exhibitions3{
+            margin-right: 100px;
+            margin-top: 30px;
+        }
 
-            .exhibitions h1{
+        .exhibitions h1{
                 
-                margin-top: -100px;
-                margin-left: 70px;
+            margin-top: -100px;
+            margin-left: 70px;
                 
-                }
+        }
 
 
-                /*visit*/
-                .visit {
-                    color:#fff;
-                    padding-left: 50px;
-                    padding-top: 80px;
-                    margin-top:60px;
-                    
-                    
-                    
-                }
+        /*visit*/
+        .visit {
+            color:#fff;
+            padding-left: 50px;
+            padding-top: 80px;
+            margin-top:60px;
+        }
 
-                .visit1 img{
-                    width: 400px;
-                    
-                }
+        .visit1 img{
+            width: 400px;
+         }
 
-                .visit2{
-                    margin-left: -85px;
-                }
+        .visit2{
+            margin-left: -85px;
+        }
 
-                .visit3{
-                    margin-left: -125px;
-                }
+        .visit3{
+            margin-left: -125px;
+        }
 
-                body#visit {
-                    background-color: black;
-                    background-image: none;
-                }
+        body#visit {
+            background-color: black;
+            background-image: none;
+        }
+
+
+
+        /*Home*/
+        .home{
+            margin-top: 140px;
+        }
+
+        .home1{
+            max-width: 200px;
+            margin-left: -85px;
+            background-color: #fff;
+            border-radius: 90px;
+            margin-top: 20px;
+            background: rgba(255,255,255, 0.95 );
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+           
+        .home1 p{
+            margin-left: 10px;
+        }
 
                  
 
