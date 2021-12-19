@@ -229,11 +229,6 @@ header {
         margin: 50px auto;
         grid-gap: 10px;
         margin-top: 250px;
-        
-        
-       
-        
-        
     }
 
     .explore h1{
@@ -259,21 +254,11 @@ header {
         max-width: 400px;
         height: 400px;
         background: rgb(235, 215, 191, 0.95);
-        
-       
-       
-        
-       
     }
-
     
-
     .explore1 p{
         max-width: 300px;
         margin-left: 50px;
-        
-       
-        
     }
 
     .exxplore1{
@@ -283,8 +268,6 @@ header {
         font-size: 10px;
         text-align: center;
         margin-top: 10px;
-        
-        
     }
 
     .exxplore1 h2{
@@ -292,9 +275,6 @@ header {
         font-size: 20px;
         font-family: 'Book Antiqua',sans-serif;
     }
-
-    
-    
 
     .check {
         max-width: 350px;
@@ -340,7 +320,7 @@ header {
         grid-gap: 10px;
         margin-left: 220px;
         margin-top: 300px ;
-         }
+    }
 
     .exhibitions h1{
         background-color: #028E5B;
@@ -389,21 +369,13 @@ header {
         
     }
 
-    
-
-
-
-    
-
-    
-
     /*contact*/
 
     body#contact{
         background-image:url('../images/science.jpg') ;
         background-repeat: no-repeat;
         background-position: center ;
-        background-attachment: fixed; /*chek this out*/
+        background-attachment: fixed; 
         background-size: cover;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -541,10 +513,6 @@ header {
 
         }
         
-        
-
-            
-
         .explore1{
             margin-top:20px
         }
@@ -647,15 +615,4 @@ header {
         }
 
                  
-
-
-
-
-
-
-
-
-
-
-
     }
