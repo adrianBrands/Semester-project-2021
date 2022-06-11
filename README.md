@@ -23,7 +23,7 @@ Project buliding a responsive website for a fictitious museum.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+gh repo clone adrianBrands/Semester-project-2021
 ```
 
 
