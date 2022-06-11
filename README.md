@@ -9,9 +9,9 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Project buliding a responsive website for a fictitious museum. 
 
-You can add some bullet points if you'd like to:
+
 
 - List item 1
 - List item 2
@@ -19,7 +19,7 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+
 
 - HTML
 - CSS
