@@ -20,7 +20,7 @@ Project buliding a responsive website for a fictitious museum.
 ### Installing
 
 
-1. Clone the repo:
+
 
 ```bash
 gh repo clone adrianBrands/Semester-project-2021
